@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Můj první HTML dokument</title>
+<style>
+    body { font-size: 24px; margin: 0%;}
+#intro {
+        color: #b87f0d;
+        background-color: black
+        ;
+        
+}
+.box{
+        width: 320px;
+        height: 100%;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 24px;
+        background-color: #a57b00;
+        box-sizing: border-box;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+    .wrapper {
+        width: 800px;
+        height: 420px;
+        border: 5px solid #a57b00;
+        border-radius: 24px;
+        margin: auto;
+        background-color: black;
+        padding: 24px;
+        box-sizing: border-box;
+        display: flex;
+        gap: 24px;
+        overflow: scroll;
+    }
+    
+    .image{
+        height: 200px;
+        width: 100%;
+        
+ }
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+    .content h2{
+        margin: 0;
+        margin-bottom: 8px;   
+    }
+    .content p{
+        margin: 0;
+    }
+    .content{padding: 12px;
+    }
+    .box:hover { scale: 1.1; transition: all 0.3s ease; }
+#description
+    {color: black;
+    background-color: #b87f0d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    }
+#features
+    {color: black;
+    background-color: black
+    ;
+    font-family: fantasy;
+    display: flex; gap: 32px;
+    padding-top: 100px;
+    border-style: double;
+    border-width: 2px ;
+
+}
+section {
+min-height: 100vh;
+text-align: center;
+align-content: center;
+padding-left: 4cm;
+padding-right: 4cm;
+}
+nav
+{padding-left: 13px;
+padding-right: 13px;
+text-align: center;
+color: #fabb00;
+background-color: #fabb00;
+position: sticky;
+top: 0%;}
+
+
+
+
+#description {
+    background-image: url("https://i.fin.cz/zpravy/obrazky/40/809240/Neistota-z-enie-zlato-nahor.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 400px;
+    
+  }
+
+
+
+
+html {scroll-behavior: smooth;}
+
+#timetable{
+    background-color: #b87f0d;
+    color: black;
+}
+
+
+
+
+.time { font-size: 14px; font-weight: normal; white-space: nowrap; ;}
+
+
+
+
+
+</style>
+</head>
+<body>
+    <nav>
+        <a href="#intro" >ÚVOD</a>
+        <a href="#description" >POPIS</a>
+        <a href="#features" >VYUŽITÍ</a>
+        <a href="#timetable" >VLASTNOSTI </a>
+    </nav>
+    <section id="intro">
+        <h1>Těžba zlata 
+
+        </h1>
+    </section>
+    <section id="description">
+
+        <p>Těžba zlata je extrakce zdrojů zlata skrze těžbu ve všech formách (ať vtroušeného v minerálech hydrotermálních žilných struktur, zlatinek až nugetů) nebo nalezišť zlata buď pod povrchem země, v hlubinných šachtách a dolech, nebo na povrchu ve skalách a v korytech řek a potoků. Tuto činnost vykonává buď jednotlivec nebo vyškolení zaměstnanci těžebních společností.</p>
+    </section>
+    <section id="features">
+        <div class="wrapper">
+            
+            <div class="box">
+                <div class="image">
+                    <img src="https://static.omara.cz/upload/9f4751be-b466-41af-9281-37c00cb6b121.jpeg" alt="popis obrázku">
+                    <div class="content">
+                        <h2> Šperky, pozlacování</h2>
+                            <p>
+                               </p>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://dam.production.vlm.nmheagle.sk/api/image/640x426/a13/a13c2503-f56e-4da7-ba24-72284b7cc8d6.webp" alt="popis obrázku">
+                    <div class="content">
+                        <h2> Průmysl</h2>
+                            <p>
+                                 </p>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMSPQkeWhw_RoqAf2wxIEkwCslT_oUfMkPg&s" alt="popis obrázku">
+                    <div class="content">
+                        <h2> Zubní lékařství</h2>
+                            <p>
+                                </p>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.stepfinance.cz/images/produkty/nowm/moose1.jpg" alt="popis obrázku">
+                    <div class="content">
+                        <h2> Platidlo</h2>
+                            <p>
+                                </p>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://zlate-cihly.cz/z/PAMP-10-g_1B.jpg" alt="popis obrázku">
+                    <div class="content">
+                        <h2> Bankovnictví a finanční spekulace</h2>
+                            <p>
+                                
+                            </p>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="timetable"> 
+            <h1>Vlastnosti</h1>
+            <p>Zlato je chemicky velmi odolný kov. Z běžných anorganických kyselin reaguje pouze s lučavkou královskou (směs HNO3 a HCl), jíž se rozpouští za vzniku tetrachlorozlatitanového aniontu [AuCl4]−. V alkalickém prostředí se zlato rozpouští v přítomnosti kyanidových iontů (za přítomnosti kyslíku), přičemž vzniká komplexní kyanozlatnan [Au(CN)2]−.</p>
+    
+            
+            </section>
+
+
+    </body>
+</html>
